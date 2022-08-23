@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="/home/rviglian/Projects/tei_openiti/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+  <person xml:id="oitei_0555IbnQalanisi">
+    <persName>
+      <name type="ism" xml:lang="ar:">Ḥamza</name>
+      <name role="kunya" xml:lang="ar:">Abū Yaʿlá</name>
+      <name type="laqab" xml:lang="ar:"></name>
+      <name type="nasab" xml:lang="ar:">b. Asad b. ʿAlī b. Muḥammad</name>
+      <name type="nisba" xml:lang="ar:">al-Tamīmī</name>
+      <name type="shuhra" xml:lang="ar:">Ibn al-Qalānisī</name>
+    </persName>
+    <birth calendar="#ah:" when-custom="YEAR-MON-DA (X+ for unknown)">
+      <placeName ref="DIMASHQ_363E335N_S"/>
+      <placeName ref="Sham_RE"/>
+    </birth>
+    <death calendar="#ah:" when-custom="YEAR-MON-DA (X+ for unknown)">
+      <placeName ref="DIMASHQ_363E335N_S"/>
+      <placeName ref="Sham_RE"/>
+    </death>
+    <residence>
+      <placeName ref="URIs from Althurayya"/>
+    </residence>
+    <residence>
+      <placeName ref="comma separated"/>
+    </residence>
+    <listEvent>
+      <event type="visit" where="URIs from Althurayya">
+        <p/>
+      </event>
+      <event type="visit" where="comma separated">
+        <p/>
+      </event>
+    </listEvent>
+    <listBibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+    </listBibl>
+    <note>a free running comment here; you can add as many¶    lines as you see fit; the main goal of this comment section is to have a¶    place to record valuable information, which is difficult to formalize¶    into the above given categories.</note>
+  </person>
+  <listRelation>
+    <relation name="students" active="#oitei_0555IbnQalanisi" passive="AUTH_URI from OpenITI"/>
+    <relation name="students" active="#oitei_0555IbnQalanisi" passive="comma separated"/>
+    <relation name="teachers" active="AUTH_URI from OpenITI" passive="#oitei_0555IbnQalanisi"/>
+    <relation name="teachers" active="comma separated" passive="#oitei_0555IbnQalanisi"/>
+  </listRelation>
+</listPerson>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="/home/rviglian/Projects/tei_openiti/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+  <person xml:id="oitei_0569CumaraYamani">
+    <persName>
+      <name type="ism" xml:lang="ar:">ʿUmāraŧ</name>
+      <name role="kunya" xml:lang="ar:">Abū Ḥamzaŧ</name>
+      <name type="laqab" xml:lang="ar:">Najm al-Dīn</name>
+      <name type="nasab" xml:lang="ar:">b. ʿAlī</name>
+      <name type="nisba" xml:lang="ar:">al-Ḥakamī al-Yamanī</name>
+      <name type="shuhra" xml:lang="ar:">ʿUmāraŧ al-Yamanī</name>
+    </persName>
+    <birth calendar="#ah:" when-custom="0515-XXX-XX">
+      <placeName ref="Yaman_RE"/>
+    </birth>
+    <death calendar="#ah:" when-custom="0569-XXX-XX">
+      <placeName ref="URIs from Althurayya"/>
+      <placeName ref="comma separated"/>
+    </death>
+    <residence>
+      <placeName ref="URIs from Althurayya"/>
+    </residence>
+    <residence>
+      <placeName ref="comma separated"/>
+    </residence>
+    <listEvent>
+      <event type="visit" where="URIs from Althurayya">
+        <p/>
+      </event>
+      <event type="visit" where="comma separated">
+        <p/>
+      </event>
+    </listEvent>
+    <listBibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+    </listBibl>
+    <note>EI2: "ʿUmāra al-Yamanī, Abū Ḥamza b.  ʿAlī b. Aḥmad¶    al-Ḥakamī, Nad̲j̲m al-Dīn,  Arabic poet and prose writer, b. 515/1121 at¶    Murṭān in Yaman,  killed at Cairo in 569/1174."</note>
+  </person>
+  <listRelation>
+    <relation name="students" active="#oitei_0569CumaraYamani" passive="AUTH_URI from OpenITI"/>
+    <relation name="students" active="#oitei_0569CumaraYamani" passive="comma separated"/>
+    <relation name="teachers" active="AUTH_URI from OpenITI" passive="#oitei_0569CumaraYamani"/>
+    <relation name="teachers" active="comma separated" passive="#oitei_0569CumaraYamani"/>
+  </listRelation>
+</listPerson>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="/home/rviglian/Projects/tei_openiti/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="#0572CuthmaniDibaji.Hadith">CuthmaniDibaji.Hadith</title>
+        <author ref="#0572CuthmaniDibaji">CuthmaniDibaji</author>
+        <respStmt>
+          <resp>Annotator</resp>
+          <name>the name of the annotator (latin characters; please¶    use consistently)</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="characters">1503</measure>
+        <measure unit="words">390</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Open Islamicate Texts Initiative (OpenITI)</publisher>
+        <availability>
+          <p>Creative Commons Attribution Non Commercial Share Alike 4.0 International</p>
+        </availability>
+        <idno>oitei_0572CuthmaniDibaji.Hadith.Sham19Y0009450-ara1</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ptr target="#0572CuthmaniDibaji.Hadith"/>
+        </bibl>
+        <listBibl type="version">
+          <bibl type="based">
+            <ptr target="permalink"/>
+          </bibl>
+          <bibl type="based">
+            <ptr target="permalink"/>
+          </bibl>
+          <bibl type="based">
+            <ptr target="permalink"/>
+          </bibl>
+          <bibl type="links">
+            <ptr target="all@id"/>
+          </bibl>
+          <bibl type="links">
+            <ptr target="vol1@id"/>
+          </bibl>
+          <bibl type="links">
+            <ptr target="vol2@id"/>
+          </bibl>
+          <bibl type="links">
+            <ptr target="vol3@id"/>
+          </bibl>
+          <bibl type="links">
+            <ptr target="volX@id"/>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>a free running comment here; you can add as many¶    lines as you see fit; the main goal of this comment section is to have a¶    place to record valuable information, which is difficult to formalize¶    into the above given categories.</p>
+    </encodingDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+bkid: 9450
+bk: حديث العثماني للديباجي
+Shamela_short_metadata_record:
+الكتاب: حديث العثماني للديباجي (مطبوع ضمن كتاب جمهرة الأجزاء الحديثية)
+المؤلف: أبو محمد عبد الله بن عبد الرحمن بن يحيى بن إسماعيل بن علي بن محمد بن إسماعيل بن الوليد بن عمرو بن محمد بن خالد ابن الديباج محمد بن عبد الله بن عمرو ابن الشهيد عثمان بن عفان الأموي، العثماني، الديباجي، الإسكندراني (المتوفى: 572ه)
+اعتناء وتخريج: محمد زياد عمر تكلة
+الناشر: مكتبة العبيكان، الرياض
+الطبعة: الأولى، 1421 ه - 2001 م
+عدد الأجزاء: 1
+digitization_comments: [ترقيم الكتاب موافق للمطبوع]
+inf:
+auth: العثماني الديباجي
+authinf: قال الذهبي في "السير" :. القاضي، الإمام، المحدث، أبو محمد عبد الله بن عبد الرحمن بن يحيى بن إسماعيل بن علي بن محمد بن إسماعيل بن الوليد بن عمرو بن محمد بن خالد ابن الديباج محمد بن عبد الله بن عمرو ابن الشهيد عثمان بن عفان الأموي، العثماني، الديباجي، الإسكندراني، صاحب تلك الفوائد التي نرويها. حدث عن: أبيه، وأبي القاسم بن الفحام، وأبي عبد الله الرازي، وأبي بكر محمد بن الوليد الطرطوشي ، وأبي الفضل جعفر بن إسماعيل بن خلف المقرئ، وعبد الله بن يحيى بن حمود، وعدة. وما علمته رحل. روى عنه: الحافظ عبد الغني، والحافظ علي بن المفضل، والحافظ عبد القادر، وحماد الحراني، وجعفر بن علي الهمذاني، وآخرون. ويعرف في زمانه بابن أبي اليابس . قال ابن المفضل: كانت عنده فنون عدة، ولد سنة أربع وثمانين وأربع مائة، ومات في شوال، سنة اثنتين وسبعين وخمس مائة. قلت: كان ثقة في نفسه. وقد قال حماد الحراني: رمى أبو طاهر السلفي العثماني بالكذب، فذكر لي جماعة من أعيان أهل الإسكندرية أن العثماني كان صحيح السماعات، ثقة، ثبتا، صالحا، متعففا، يقرئ النحو واللغة والحديث، وسمعت جماعة يقولون: إنه كان يقول: بيني وبين السلفي وقفة بين يدي الله . قال الأبار: أكثر أبو عبد الله التجيبي عن أبي الحجاج الثغري، وقال: لم أر أفضل منه، ولم أر بالبلاد المشرقية أفضل من أبي محمد العثماني، ولا أزهد ولا أورع منه. قلت: خرج تلك الفوائد في سنة أربع عشرة وخمس مائة، وحدث بها في ذلك الوقت، وهلم جرا. وكان أبوه من علماء الثغر.
+tafseernam: None
+islamshort: 0
+onum: 9450
+over: 1
+seal: D5BE96C4
+oauth: 1304
+bver: 1
+pdf: 0
+oauthver: 1
+vername: None
+cat: الأجزاء الحديثية
+lng: أبو محمد عبد الله بن عبد الرحمن بن يحيى بن إسماعيل بن علي بن محمد بن إسماعيل بن الوليد بن عمرو بن محمد بن خالد ابن الديباج محمد بن عبد الله بن عمرو ابن الشهيد عثمان بن عفان الأموي، العثماني، الديباجي، الإسكندراني
+higrid: 572
+ad: 572
+aseal: E2DC26BD
+blnk: None
+pdfcs: 0
+ScrapeDate: 2019-10-16
+ScrapeURL: http://shamela.ws/index.php/book/9450
+</xenoData>
+    <revisionDesc>
+      <change when="YYYY-MM-DD">Latest change.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="Vol. 1, p. 325"/>
+      <div>
+        <p>
+          <lb/>1 - أنا ابن شبل، ثنا الفقيه نصر بن إبراهيم المقدسي، أخبرني أبو الحسن
+          <lb/>علي بن الخضر بن سليمان بن سعيد السلمي، ثنا أبو القاسم عبد الرحمن بن عمر
+          <lb/>بن محمد، ثنا أبو بكر محمد بن علي العطوفي سنة ثلاث وأربعين وثلاثمائة، ثنا
+          <lb/>محمد بن سفيان بن موسى، ثنا محمد بن آدم بن سليمان، ثنا أبو خالد الأحمر،
+          <lb/>عن أبي عقال مثنى بن سعيد الكوفي، عن أبي عثمان، قال: " دخلنا على سلمان
+          <lb/>الفارسي رضي الله عنه، وهو يخوص الخوص، فقلت: عطاؤك أربعة آلاف وأنت تخوص
+          <lb/>الخوص! قال: إني
+        </p>
+      </div>
+      <div>
+        <head>AUTO أحب أن آكل من عمل يدي "</head>
+        <p>
+          <lb/>2 - أنا ابن شبل، ثنا المقدسي، أبنا السلمي، أخبرني عبد الرحمن بن عمر،
+          <lb/>ثنا أبو بكر بن العطوفي، ثنا الحسين بن يحيى، ثنا عمرو بن ثور، وإبراهيم بن
+          <lb/>معاوية، قالا: ثنا محمد بن يوسف، ثنا سفيان، قال: " جاء راهب إلى راهب،
+          <lb/>فقال: كيف رأيت نشاطك؟ قال: ما شعرت أن أحدا سمع بذكر الجنة والنار تأتي
+          <lb/>عليه ساعة من ليل أو نهار، إلا وهو يصلي فيها ,<pb n="Vol. 1, p. 326"/># قال: كيف ذكرك للموت؟ قال: ما أرفع رجلا، ولا أضع أخرى، إلا رأيت أجلي،
+          <lb/>وإني لأبكي حتى ينبت العشب من دموعي.
+        </p>
+        <p>
+          <lb/>قال: إنك أن تضحك وأنت معترف لله بخطيئتك، خير من أن تبكي وأنت مراء، فإن
+          <lb/>صلاة المرائي لا تصعد فوقه.
+        </p>
+        <p>
+          <lb/>قال: أوصني، قال:
+        </p>
+      </div>
+      <div>
+        <head>AUTO ازهد في الدنيا لا تنازع أهلها، وكن فيها كالنحلة، إن وقعت على عود لم تكسره، وإن أكلت أكلت</head>
+        <p>
+          <lb/>طيبا، وإن وضعت وضعت طيبا، وانصح له نصح الكلب لأهله، فإنهم يطردونه،
+          <lb/>ويجيعونه، ويضربونه، ويأبى إلا أن يحوطهم ويحفظهم "
+        </p>
+        <p>
+          <lb/>3 - أبنا ابن شبل، أبنا أبو الغنائم محمد بن محمد بن غزا الربعي المقرئ،
+          <lb/>في جمادى الأولى سنة اثنتين وستين وأربعمائة، أبنا القاضي أبو الحسن محمد
+          <lb/>بن علي بن محمد بن صخر البصري، أبنا أبو القاسم عمر بن محمد بن يوسف
+          <lb/>البغدادي، ثنا أبو علي الحسن بن محمد بن شعبة الأنصاري، ثنا أبو الحسن عبد
+          <lb/>الله بن محمد بن عبد الرحمن بن عثمان الأشهلي<milestone n="300" unit="words"/>، حدثني جدي عبد الرحمن بن
+          <lb/>عثمان الأشهلي، قال: " كان لنا جار يقال له:
+        </p>
+      </div>
+      <div>
+        <head>AUTO فليت، وكان معتوها، وكانت له خالة عجوز كبيرة لها عقل ودين، قال: فقالت له: فليت! أيسرك أنك</head>
+        <p>
+          <lb/>أمير المؤمنين؟ قال: لا! قال: قالت: ولم؟ قال: يثقل ظهري، ويكثر همي
+          <lb/>وينسيني الهم ذكر ربي.
+        </p>
+        <p>
+          <lb/>قال: قالت: وفي الأرض عاقل لا يتمنى أنه خليفة! قال: وفي الأرض عاقل
+          <lb/>يتمنى أنه خليفة! "
+        </p>
+        <p>
+          <lb/>4 - أبنا ابن شبل، أبنا ابن غزا، أبنا محمد، أبنا عمر، أبنا الحسن، حدثني
+          <lb/>عبد الله، قال: حدثني جدي، قلت لبهلول يوما: "
+        </p>
+      </div>
+      <div>
+        <head>AUTO أي شيء أولى بك؟ قال: العمل الصالح " ms2</head>
+      </div>
+    </body>
+  </text>
+  <standOff>
+    <!--AUTHOR METADATA-->
+    <xi:include href="../0572CuthmaniDibaji.xml"/>
+    <!--BOOK METADATA-->
+    <xi:include href="./0572CuthmaniDibaji.Hadith.xml"/>
+  </standOff>
+</TEI>

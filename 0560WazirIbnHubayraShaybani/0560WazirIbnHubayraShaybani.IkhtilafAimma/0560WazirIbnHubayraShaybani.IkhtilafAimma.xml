@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="/home/rviglian/Projects/tei_openiti/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listBibl xmlns="http://www.tei-c.org/ns/1.0">
+  <bibl ana="src@keyword src@keyword src@keyword" xml:id="oitei_0560WazirIbnHubayraShaybani.IkhtilafAimma">
+    <title type="main" xml:lang="ar">Kitāb al-Muʾallif</title>
+    <title type="alt" xml:lang="ar">Risālaŧ al-Muʾallif</title>
+    <placeName ref="URIs from Althurayya"/>
+    <placeName ref="comma separated"/>
+    <date>YEAR-MON-DA (X+ for unknown)</date>
+    <relatedItem type="editions" target="permalink"/>
+    <relatedItem type="editions" target="permalink"/>
+    <relatedItem type="editions" target="permalink"/>
+    <relatedItem type="links" target="permalink"/>
+    <relatedItem type="links" target="permalink"/>
+    <relatedItem type="links" target="permalink"/>
+    <relatedItem type="mss" target="permalink"/>
+    <relatedItem type="mss" target="permalink"/>
+    <relatedItem type="mss" target="permalink"/>
+    <relatedItem type="studies" target="permalink"/>
+    <relatedItem type="studies" target="permalink"/>
+    <relatedItem type="studies" target="permalink"/>
+    <relatedItem type="translat" target="permalink"/>
+    <relatedItem type="translat" target="permalink"/>
+    <relatedItem type="translat" target="permalink"/>
+    <note>a free running comment here; you can add as many¶    lines as you see fit; the main goal of this comment section is to have a¶    place to record valuable information, which is difficult to formalize¶    into the above given categories.</note>
+  </bibl>
+</listBibl>

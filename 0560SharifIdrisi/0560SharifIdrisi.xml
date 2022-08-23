@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="/home/rviglian/Projects/tei_openiti/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+  <person xml:id="oitei_0560SharifIdrisi">
+    <persName>
+      <name type="ism" xml:lang="ar:">Muḥammad</name>
+      <name role="kunya" xml:lang="ar:">Abū ʿAbd Allāh</name>
+      <name type="laqab" xml:lang="ar:"></name>
+      <name type="nasab" xml:lang="ar:">b. Muḥammad b. ʿAbd Allāh b. Idrīs</name>
+      <name type="nisba" xml:lang="ar:">al-Ḥammūdī al-Ḥusaynī</name>
+      <name type="shuhra" xml:lang="ar:">al-Šarīf al-Idrīsī</name>
+    </persName>
+    <birth calendar="#ah:" when-custom="YEAR-MON-DA (X+ for unknown)">
+      <placeName ref="URIs from Althurayya"/>
+      <placeName ref="comma separated"/>
+    </birth>
+    <death calendar="#ah:" when-custom="0560-XXX-XX">
+      <placeName ref="URIs from Althurayya"/>
+      <placeName ref="comma separated"/>
+    </death>
+    <residence>
+      <placeName ref="URIs from Althurayya"/>
+    </residence>
+    <residence>
+      <placeName ref="comma separated"/>
+    </residence>
+    <listEvent>
+      <event type="visit" where="URIs from Althurayya">
+        <p/>
+      </event>
+      <event type="visit" where="comma separated">
+        <p/>
+      </event>
+    </listEvent>
+    <listBibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+    </listBibl>
+    <note>EI2: "Abū ʿAbd Allāh Muḥammad b. Muḥammad b. ʿAbd Allāh b. Idrīs al-ʿĀlī bi-amr Allāh , called also al-S̲h̲arīf al-Idrīsī because of his exalted lineage": http://dx.doi.org/10.1163/1573-3912_islam_SIM_3494</note>
+  </person>
+  <listRelation>
+    <relation name="students" active="#oitei_0560SharifIdrisi" passive="AUTH_URI from OpenITI"/>
+    <relation name="students" active="#oitei_0560SharifIdrisi" passive="comma separated"/>
+    <relation name="teachers" active="AUTH_URI from OpenITI" passive="#oitei_0560SharifIdrisi"/>
+    <relation name="teachers" active="comma separated" passive="#oitei_0560SharifIdrisi"/>
+  </listRelation>
+</listPerson>

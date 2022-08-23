@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="/home/rviglian/Projects/tei_openiti/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+  <person xml:id="oitei_0571IbnCasakir">
+    <persName>
+      <name type="ism" xml:lang="ar:">ʿAlī</name>
+      <name role="kunya" xml:lang="ar:">Abū al-Qāsim</name>
+      <name type="laqab" xml:lang="ar:"></name>
+      <name type="nasab" xml:lang="ar:">b. al-Ḥasan b. Hibaŧ Allāh b. ʿAbd Allāh</name>
+      <name type="nisba" xml:lang="ar:">al-Šāfiʿī</name>
+      <name type="shuhra" xml:lang="ar:">Ibn ʿAsākir</name>
+    </persName>
+    <birth calendar="#ah:" when-custom="0499-MUH-XX">
+      <placeName ref="DIMASHQ_363E335N_S"/>
+      <placeName ref="Sham_RE"/>
+    </birth>
+    <death calendar="#ah:" when-custom="0571-RAJ-11">
+      <placeName ref="DIMASHQ_363E335N_S"/>
+    </death>
+    <residence>
+      <placeName ref="DIMASHQ_363E335N_S"/>
+    </residence>
+    <residence>
+      <placeName ref="BAGHDAD_443E333N_S"/>
+    </residence>
+    <listEvent>
+      <event type="visit" where="Iraq_RE">
+        <p/>
+      </event>
+      <event type="visit" where="MAKKA_398E213N_S">
+        <p/>
+      </event>
+      <event type="visit" where="ISBAHAN_516E326N_S,¶    NAYSABUR_587E361N_S">
+        <p/>
+      </event>
+      <event type="visit" where="BAYHAQ_576E360N_R">
+        <p/>
+      </event>
+      <event type="visit" where="MARW_621E376N_S">
+        <p/>
+      </event>
+      <event type="visit" where="HARA_621E343N_S">
+        <p/>
+      </event>
+    </listEvent>
+    <listBibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+      <bibl>
+        <ptr target="src@id"/>
+      </bibl>
+    </listBibl>
+    <note>EI3: "Born in Muḥarram 499/September 1105, he began his pursuit of religious education at an early age ...": http://dx.doi.org/10.1163/1573-3912_ei3_COM_30705</note>
+  </person>
+  <listRelation>
+    <relation name="students" active="#oitei_0571IbnCasakir" passive="AUTH_URI from OpenITI"/>
+    <relation name="students" active="#oitei_0571IbnCasakir" passive="comma separated"/>
+    <relation name="teachers" active="AUTH_URI from OpenITI" passive="#oitei_0571IbnCasakir"/>
+    <relation name="teachers" active="comma separated" passive="#oitei_0571IbnCasakir"/>
+  </listRelation>
+</listPerson>
