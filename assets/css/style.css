@@ -96,8 +96,12 @@ header {
 }
 
 .banner {
-  background-image: url(/assets/images/banner.png);
+  background-image: url(assets/images/banner.png);
   background-position-y: -25px;
+}
+
+.banner.cetei {
+  background-image: url(../assets/images/banner.png);
 }
 
 .banner-root {
